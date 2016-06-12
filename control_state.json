@@ -22,7 +22,7 @@ response: {
             "thermal_screen": "on",
         },
         "bi_state": {
-            "cooling_pump": "on",
+            "cooling_pad": "on",
             "fogging": "on",
             "heating": "on",
             "co2": "on",
