@@ -10,14 +10,14 @@ response:
         "node_0": {
             "updatetime": "201605010800",
             "temperature": "20.0",
-            "relative_humidity": "70.0",
+            "humidity": "70.0",
             "radiation": "20000",
             "co2": "400"
         },
         "node_1": {
             "updatetime": "201605010800",
             "temperature": "20.0",
-            "relative_humidity": "80.0",
+            "humidity": "80.0",
             "radiation": "20000",
             "co2": "500"
         }

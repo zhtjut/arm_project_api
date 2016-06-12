@@ -1,3 +1,7 @@
+tri_state actuators' potential state:on off stop
+bi_state actuators' potential state:on off
+
+
 PATH: /control
 METHOD: POST
 request: {
@@ -32,6 +36,3 @@ response: {
         }
     }
 }
-
-tri_state actuators ' potential state:on off stop
-bi_state actuators ' potential state:on off
