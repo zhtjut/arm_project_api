@@ -7,7 +7,7 @@ PATH: /parameter
 METHOD:get
 	
 response:
-	{
+{
            "plant_parameter_setting":{
                                 "time1":"", 
                                 "temperature1":"",
@@ -34,7 +34,7 @@ response:
                                 "expect_light":"",
                                 "light_influence_on_air_temperature_slope":"",
                                 "high_light_influence_on_temperature":"",
-					},			"low_light_influence_on_temperature":{
+								"low_light_influence_on_temperature":"",
                                 "frost_temperature":"",
                                 "indoor_temperature_lower_limit":"",
                                 "roof_vent_wind_speed_upper_limit":"",
@@ -79,6 +79,5 @@ response:
 								"shade_screen_out_open_time":"",
 								"shade_screen_in_open_time":"",
 								"thermal_screen_open_time":"",
-
 							 }
-           }            
+           }       
