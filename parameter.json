@@ -34,7 +34,7 @@ response:
                                 "expect_light":"",
                                 "light_influence_on_air_temperature_slope":"",
                                 "high_light_influence_on_temperature":"",
-								"low_light_influence_on_temperature":"",
+					},			"low_light_influence_on_temperature":""
                                 "frost_temperature":"",
                                 "indoor_temperature_lower_limit":"",
                                 "roof_vent_wind_speed_upper_limit":"",
@@ -43,7 +43,7 @@ response:
            "heating_parameter_setting":{
                                 "heating_start_lowest_temperature":"",
                                 "heating_stop_highest_temperature":""
-                                        }
+                                        },
            "thermal_screen_parameter_setting":{
                                         "month_to_open_thermal_screen":"",
                                         "month_to_close_thermal_screen":"",
