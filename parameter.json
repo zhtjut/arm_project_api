@@ -34,7 +34,7 @@ response:
                                 "expect_light":"",
                                 "light_influence_on_air_temperature_slope":"",
                                 "high_light_influence_on_temperature":"",
-					},			"low_light_influence_on_temperature":""
+					},			"low_light_influence_on_temperature":{
                                 "frost_temperature":"",
                                 "indoor_temperature_lower_limit":"",
                                 "roof_vent_wind_speed_upper_limit":"",
