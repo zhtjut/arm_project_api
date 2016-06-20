@@ -17,6 +17,7 @@ response: {
 PATH: /control
 METHOD: GET
 response: {
+    "update_time":""
     "actuator": {
         "update_time": "2016-06-13 00:32:50",
         "tri_state": {

@@ -1,0 +1,45 @@
+
+first_1st_on="FE 05 00 00 FF 00 98 35"
+first_1st_off="FE 05 00 00 00 00 D9 C5"
+
+first_1st=(first_1st_on,first_1st_off)
+
+first_relay=[first_1st,first_2nd,first_3rd,first_4th,first_5th,first_6th,first_7th,first_8th]
+
+control_relay={
+     "tri_state":{
+                "roof_vent_south":{
+                            "on":first_relay[0],
+                            "off":first_relay[1]
+                                   },
+                "roof_vent_north": {
+                            "on":first_relay[2],
+                            "off":first_relay[3]
+                                   },
+                "side_vent": {
+                            "on":first_relay[4],
+                            "off":first_relay[5]
+                                   },
+                "shade_screen_out": {
+                            "on":first_relay[6],
+                            "off":first_relay[7]
+                                   },
+                "shade_screen_in": {
+                            "on":second_relay[0],
+                            "off":second_relay[1]
+                                   },
+                "thermal_screen": {
+                            "on":second_relay[2],
+                            "off":second_relay[3]
+                                   }
+                },
+    "bi_state":{            
+                "cooling_pad": second_relay[4],
+                "fogging": second_relay[5],
+                "heating": second_relay[6],
+                "co2": second_relay[7],
+                "lighting_1": third_relay[0],
+                "lighting_2": third_relay[1],
+                "irrigation": third_relay[2]
+                }
+	}
