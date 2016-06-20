@@ -51,7 +51,7 @@ response:
                                         "time_to_close_thermal_screen":""
                                                },
            "side_vent_parameter_setting":{
-                                    "temperature_to_open_side":"",//hzheng
+                                    "temperature_to_open_side":"",
                                     "wait_time_to_open_side":"",
                                     "rain_upper_limit_to_close":""
                                           },
@@ -78,7 +78,7 @@ response:
 								"side_vent_open_time":"",
 								"shade_screen_out_open_time":"",
 								"shade_screen_in_open_time":"",
-								"therm_screen_open_time":"",
+								"thermal_screen_open_time":"",
 
 							 }
            }            
