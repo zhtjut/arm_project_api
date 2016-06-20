@@ -7,7 +7,8 @@ PATH: /parameter
 METHOD:get
 	
 response:
-{
+		
+{	   "update_time":""
            "plant_parameter_setting":{
                                 "time1":"", 
                                 "temperature1":"",
