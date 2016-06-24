@@ -8,77 +8,79 @@ METHOD:get
 	
 response:
 		
-{	   "update_time":"",
-           "plant_parameter_setting":{
-                                "time1":"", 
-                                "temperature1":"",
-                                "time2":"",
-                                "temperature2":"",
-                                "time3":"",
-                                "temperature3":"",
-                                "time4":"",
-                                "temperature4":""
-                                      },
-           "co2_parameter_setting":{
-                                "co2_upper_limit":"",
-                                "co2_lower_limit":""
-                                    },
-           "cooling_fans":{
-                          "cooling_start_temperature":"",
-                          "cooling_stop_temperature":""
-                          },
-           "roof_vent_parameter_setting":{
-                                "expect_humidity":"",  
-                                "humidity_influence_range_of_air_temperature":"", 
-                                "low_humidity_influence_on_air_temperature":"",
-                                "high_humidity_influence_on_air_temperature":"",
-                                "expect_light":"",
-                                "light_influence_on_air_temperature_slope":"",
-                                "high_light_influence_on_temperature":"",
-				"low_light_influence_on_temperature":"",
-                                "frost_temperature":"",
-                                "indoor_temperature_lower_limit":"",
-                                "roof_vent_wind_speed_upper_limit":"",
-                                "roof_vent_rain_upper_limit":""
-                                          },
-           "heating_parameter_setting":{
-                                "heating_start_lowest_temperature":"",
-                                "heating_stop_highest_temperature":""
-                                        },
-           "thermal_screen_parameter_setting":{
-                                        "month_to_open_thermal_screen":"",
-                                        "month_to_close_thermal_screen":"",
-                                        "time_to_open_thermal_screen":"",
-                                        "time_to_close_thermal_screen":""
-                                               },
-           "side_vent_parameter_setting":{
-                                    "temperature_to_open_side":"",
-                                    "wait_time_to_open_side":"",
-                                    "rain_upper_limit_to_close":""
-                                          },
-           "other_parameter_setting":{
-                             "upper_limit_light_to_open_out_shade_screen" :"" ,
-                             "upper_limit_light_to_open_in_shade_screen" :"",
-                             "soil_humidity_to_start_irrigation":"",
-                             "soil_humidity_to_stop_irrigation":"",
-                             "temperature_to_open_fogging":"",
-                             "temperature_to_open_cooling_pad":""
-                                      },
-			"lighting_setting":{
-					"month_to_open_lighting":"",
-					"month_to_close_lighting":"",
-					"period1_start_lighting":"",
-					"period1_stop_lighting":"",
-					"period2_start_lighting":"",
-					"period2_stop_lighting":"",
-					"radiation1_to_open_lighting":"",
-					"radiation2_to_open_lighting":""
-						},
-			 "time_that_full_open_to_full_close":{
-						"roof_vent_open_time":"",
-						"side_vent_open_time":"",
-						"shade_screen_out_open_time":"",
-						"shade_screen_in_open_time":"",
-						"thermal_screen_open_time":"",
-							 }
-           }       
+	   {
+	"time_that_full_open_to_full_close": {
+		"roof_vent_open_time": "13",
+		"side_vent_open_time": "13",
+		"thermal_screen_open_time": "13",
+		"shade_screen_in_open_time": "13",
+		"shade_screen_out_open_time": "13"
+	},
+	"update_time": "2016-06-04",
+	"heating_parameter_setting": {
+		"heating_start_lowest_temperature": "5",
+		"heating_stop_highest_temperature": "5"
+	},
+	"co2_parameter_setting": {
+		"co2_lower_limit": "4",
+		"co2_upper_limit": "4"
+	},
+	"roof_vent_parameter_setting": {
+		"expect_humidity": "6",
+		"low_humidity_influence_on_air_temperature": "6",
+		"expect_light": "6",
+		"high_light_influence_on_temperature": "7",
+		"roof_vent_wind_speed_upper_limit": " 7",
+		"humidity_influence_range_of_air_temperature": "6",
+		"frost_temperature": " 7",
+		"roof_vent_rain_upper_limit": " 6",
+		"light_influence_on_air_temperature_slope": "7",
+		"low_light_influence_on_temperature": "7",
+		"indoor_temperature_lower_limit": " 7",
+		"high_humidity_influence_on_air_temperature": "6"
+	},
+	"thermal_screen_parameter_setting": {
+		"month_to_close_thermal_screen": "8",
+		"time_to_close_thermal_screen": "8",
+		"time_to_open_thermal_screen": "8",
+		"month_to_open_thermal_screen": "8"
+	},
+	"other_parameter_setting": {
+		"soil_humidity_to_start_irrigation": "10",
+		"soil_humidity_to_stop_irrigation": "10",
+		"temperature_to_open_fogging": "10",
+		"upper_limit_light_to_open_out_shade_screen": "10",
+		"upper_limit_light_to_open_in_shade_screen": "10",
+		"temperature_to_open_cooling_pad": "10"
+	},
+	"lighting_setting": {
+		"month_to_open_lighting": "11",
+		"radiation2_to_open_lighting": "12",
+		"radiation1_to_open_lighting": "12",
+		"period2_stop_lighting": "12",
+		"month_to_close_lighting": "11",
+		"period1_start_lighting": "11",
+		"period1_stop_lighting": "11",
+		"period2_start_lighting": "12"
+	},
+	"plant_parameter_setting": {
+		"time1": "1",
+		"time2": "1",
+		"time3": "1",
+		"time4": "1",
+		"temperature3": "2",
+		"temperature2": "2",
+		"temperature1": "2",
+		"temperature4": "2"
+	},
+	"side_vent_parameter_setting": {
+		"wait_time_to_open_side": "9",
+		"temperature_to_open_side": "9",
+		"rain_upper_limit_to_close": "9"
+	},
+	"cooling_fans": {
+		"cooling_start_temperature": "3",
+		"cooling_stop_temperature": "3"
+	}
+}
+      
