@@ -1,34 +1,22 @@
-控制方法的选择，主要是后端的，想法方法待定，这是初步的。  该方法可行，确认实施。
+PATH: /model
+METHOD:post
 
-@app.route('/control', methods=['GET', 'POST'])
-def manul_control():
-    global control_method,auto
-    if control_method=="auto":
-        auto.stop()
-    control_method="computer_control"
-    if request.method == 'POST':
-        try:
-            data = request.data
-            return c.handle_post(data)
-        except ValueError:
-            return "你追我，如果你追到我，我就让你你嘿嘿嘿！"
-    else:
-        return c.build_json()
+model:auto,computer,manual control
 
-@app.route('/auto')
-def auto_run():
-    global control_method,auto
-    control_method="auto"
-    auto_running()
-    get_side_wait_time()
-    wait_time.start()
-    auto.start()
-    return 'auto run'
+request:
+	{
+		"model":"auto"	
+	}
 
-@app.route('/computer')
-def computer_control():
-    global control_method,auto
-    if control_method=="auto":
-        auto.stop()
-    control_method="computer_control"
-    return 'computer control'
+response:
+	auto
+
+request:
+	{
+		"model":"computer"	
+	}
+
+response:
+	computer
+
+
